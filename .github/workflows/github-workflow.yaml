@@ -99,3 +99,4 @@ jobs:
         run: |
           echo "Synchronizing DAGs to S3 bucket"
           aws s3 cp ml_pipeline_dag.py s3://${BUCKET_NAME}/pvc-534d9f02-c299-471f-9917-68305605add3/ml_pipeline_dag.py --endpoint-url ${S3_ENDPOINT_URL}
+          
